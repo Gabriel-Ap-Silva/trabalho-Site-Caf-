@@ -1,0 +1,116 @@
+
+* {
+  box-sizing: border-box;
+}
+.image
+	{
+		background-image: url('img/mike-kenneally-TD4DBagg2wE-unsplash.jpg');
+		background-size: cover;
+		height:auto;
+		position: relative;
+	}
+
+
+.topo 
+	{
+  	padding: 0px;
+  	text-align: center;
+	}
+
+.row 
+	{  
+	display: flex;
+  	flex-wrap: wrap;
+	}
+
+.side 
+	{
+ 	flex: 30%;
+  	padding: 19px;
+	outline-style:dotted;
+	outline-color: white;
+	background-color: black;
+	opacity: 90%;
+
+	}
+
+.main 
+	{
+  	flex: 30%;
+ 	padding: 19px;
+	}
+
+.main2
+	{
+  	flex: 30%;
+ 	padding: 19px;
+	 outline-style:dotted;
+	 outline-color: white;
+	 background-color: black;
+	 opacity: 80%;
+	}
+
+.grafico 
+	{
+  	width: 100%;
+  	padding: 20px;
+	}
+
+	
+h1 
+	{
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	color: rgb(255, 255, 255);
+	font-size: 80px;
+	text-shadow: 5px 5px rgb(3, 1, 1);
+	}
+
+h2 
+	{
+	font-family: verdana;
+	font-size: 30px;
+	color: rgb(255, 255, 255);
+	}
+
+p 
+	{
+	font-family: verdana;
+	font-size: 25px;
+	color: rgb(255, 255, 255);
+	text-align:left;
+	}
+a {
+	font-family: verdana;
+	font-size: 10px;
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+}
+
+.button {
+    background-color:black
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    float: left;
+  }
+ 
+.button1 {
+    background-color: #000000; 
+    color: rgb(255, 255, 255); 
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    opacity: 90%;
+    outline-style:dotted;
+    outline-color: white;
+  }
+
+
+
+	
